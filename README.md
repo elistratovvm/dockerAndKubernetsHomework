@@ -43,3 +43,11 @@ https://hub.docker.com/repository/docker/elistratovvm/web
 ![image](https://user-images.githubusercontent.com/107641976/174166806-0169afdc-887a-4544-ac0c-29a5cc302f71.png)
 
 ![image](https://user-images.githubusercontent.com/107641976/174166944-14a6ee11-3e35-4dc3-bb9d-4273002bed3e.png)
+
+Результат команды $ kubectl describe pod pod:
+
+![image](https://user-images.githubusercontent.com/107641976/174171346-61f35d8e-7ed7-4386-8909-ec5e400639aa.png)
+
+![image](https://user-images.githubusercontent.com/107641976/174171389-64c19e09-3443-4760-9845-194fff7513e8.png)
+
+
