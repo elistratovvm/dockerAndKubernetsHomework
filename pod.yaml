@@ -1,11 +1,20 @@
-apiVersion: v1
-kind: Pod
+apiVersion: apps/v1
+kind: ReplicaSet
 metadata:
-  name: web
+  name: pod
   labels:
     env: test
 spec:
-  containers:
-  - name: web
-    image: elistratovvm/web:1.0.0
-    imagePullPolicy: IfNotPresent
+  replicas: 2
+  selector:
+    matchLabels:
+      tier: pod
+  template:
+    metadata:
+      labels:
+        tier: pod
+    spec:
+      containers:
+      - name: web
+        image: elistratovvm/web:1.0.0
+        imagePullPolicy: IfNotPresent
