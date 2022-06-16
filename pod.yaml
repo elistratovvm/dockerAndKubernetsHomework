@@ -6,6 +6,6 @@ metadata:
     env: test
 spec:
   containers:
-  - name: webapp
+  - name: web
     image: elistratovvm/web:1.0.0
     imagePullPolicy: IfNotPresent
